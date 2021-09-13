@@ -1,0 +1,101 @@
+.btn {
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, from(#006600), to(#6DC81B)), #FF7258;
+  background: linear-gradient(90deg, #006600 0%, #6DC81B 100%), #FF7258;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 35px;
+  padding: 11px 30px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: none;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+
+.btn:hover, .btn:focus {
+  color: #03262c;
+  border-color: #0f7404;
+  outline: 0;
+}
+
+.btn:focus::after, .btn:hover::after {
+  height: 0;
+}
+
+.btn .border-radius-0 {
+  border-radius: 0;
+}
+
+.btn .border-transparent {
+  border-color: transparent;
+}
+
+.iconLeft {
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.iconRight {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1599px) {
+  .btn {
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .navbar {
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (max-width: 1299px) {
+  .btn {
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}
+/*# sourceMappingURL=Button.module.css.map */
