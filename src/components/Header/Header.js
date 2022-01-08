@@ -41,7 +41,7 @@ const Header = () => {
                     <Link
                       className={`nav-link ${styles["header-link"]}`}
                       aria-current="page"
-                      to="/HomePage"
+                      to="/"
                     >
                       Home
                     </Link>
@@ -71,7 +71,7 @@ const Header = () => {
                     </NavHashLink>
                   </li>
                   <li className="nav-item dropdown">
-                    <a
+                    <Link
                       className={`nav-link ${styles["header-link"]} dropdown-toggle`}
                       id="navbarDropdown"
                       role="button"
@@ -80,7 +80,7 @@ const Header = () => {
                       to="/"
                     >
                       Pages
-                    </a>
+                    </Link>
                     <ul
                       className={`dropdown-menu  ${styles["dropdown-menus"]}`}
                       aria-labelledby="navbarDropdown"

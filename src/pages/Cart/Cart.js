@@ -28,11 +28,7 @@ const Cart = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <th
-                      scope="row"
-                      className="align-middle"
-                      className="align-middle"
-                    >
+                    <th scope="row" className="align-middle">
                       <div className="product-img">
                         <img className="img-fluid" src={Apple} alt="" />
                       </div>
@@ -128,7 +124,7 @@ const Cart = () => {
                       name="coupon-code"
                     />
                     <div className="coupon-btn">
-                      <a href="" className=" rounded">
+                      <a href="/#" className=" rounded">
                         Apply Coupon
                       </a>
                     </div>

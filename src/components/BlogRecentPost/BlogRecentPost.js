@@ -12,7 +12,7 @@ const BlogRecentPost = () => {
           <li className="pt-3  border-bottom">
             <span className={styles["post-date"]}>20 April, 2020</span>
             <h4>
-              <a className={styles["post-title"]} href="">
+              <a className={styles["post-title"]} href="/#">
                 Strawberries are low-growing herbaceous plants.
               </a>
             </h4>
@@ -20,7 +20,7 @@ const BlogRecentPost = () => {
           <li className="pt-3  border-bottom">
             <span className={styles["post-date"]}>20 April, 2020</span>
             <h4>
-              <a className={styles["post-title"]} href="">
+              <a className={styles["post-title"]} href="/#">
                 Strawberries are low-growing herbaceous plants.
               </a>
             </h4>
@@ -28,7 +28,7 @@ const BlogRecentPost = () => {
           <li className="pt-3  border-bottom">
             <span className={styles["post-date"]}>20 April, 2020</span>
             <h4>
-              <a className={styles["post-title"]} href="">
+              <a className={styles["post-title"]} href="/#">
                 Strawberries are low-growing herbaceous plants.
               </a>
             </h4>
@@ -36,7 +36,7 @@ const BlogRecentPost = () => {
           <li className="pt-3  border-bottom">
             <span className={styles["post-date"]}>20 April, 2020</span>
             <h4>
-              <a className={styles["post-title"]} href="">
+              <a className={styles["post-title"]} href="/#">
                 Strawberries are low-growing herbaceous plants.
               </a>
             </h4>

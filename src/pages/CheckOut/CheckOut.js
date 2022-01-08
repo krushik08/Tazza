@@ -37,7 +37,7 @@ const CheckOut = () => {
                       <tr>
                         <th
                           scope="col"
-                          colspan="2"
+                          colSpan="2"
                           className="text-center text-uppercase"
                         >
                           PAYMENT METHOD
@@ -53,8 +53,7 @@ const CheckOut = () => {
                               className="form-check-input"
                               name="payment"
                               id="credit-card"
-                              value
-                              checked
+                              readOnly
                             />
                             <label
                               htmlFor="credit-card"

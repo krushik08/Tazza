@@ -12,7 +12,7 @@ const CartTotal = () => {
             <tr>
               <th
                 scope="col"
-                colspan="2"
+                colSpan="2"
                 className={`text-center text-uppercase ${styles["cart-total-heading"]}`}
               >
                 Cart Total

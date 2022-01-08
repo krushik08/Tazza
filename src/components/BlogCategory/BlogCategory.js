@@ -12,7 +12,7 @@ const BlogCategory = () => {
           <li
             className={`list-group-item list-icon mt-2 position-relative border border-2 ${styles.list}`}
           >
-            <a href="" className={styles["list-name"]}>
+            <a href="/#" className={styles["list-name"]}>
               <Icofont
                 className={styles["sidebar-li-icon"]}
                 icon="arrow-right"
@@ -23,7 +23,7 @@ const BlogCategory = () => {
           <li
             className={`list-group-item list-icon mt-2 position-relative border border-2 ${styles.list}`}
           >
-            <a href="" className={styles["list-name"]}>
+            <a href="/#" className={styles["list-name"]}>
               <Icofont
                 className={styles["sidebar-li-icon"]}
                 icon="arrow-right"
@@ -34,7 +34,7 @@ const BlogCategory = () => {
           <li
             className={`list-group-item list-icon mt-2 position-relative border border-2 ${styles.list}`}
           >
-            <a href="" className={styles["list-name"]}>
+            <a href="/#" className={styles["list-name"]}>
               <Icofont
                 className={styles["sidebar-li-icon"]}
                 icon="arrow-right"
@@ -45,7 +45,7 @@ const BlogCategory = () => {
           <li
             className={`list-group-item list-icon mt-2 position-relative border border-2 ${styles.list}`}
           >
-            <a href="" className={styles["list-name"]}>
+            <a href="/#" className={styles["list-name"]}>
               <Icofont
                 className={styles["sidebar-li-icon"]}
                 icon="arrow-right"
@@ -56,7 +56,7 @@ const BlogCategory = () => {
           <li
             className={`list-group-item list-icon mt-2 position-relative border border-2 ${styles.list}`}
           >
-            <a href="" className={styles["list-name"]}>
+            <a href="/#" className={styles["list-name"]}>
               <Icofont
                 className={styles["sidebar-li-icon"]}
                 icon="arrow-right"

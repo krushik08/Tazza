@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Leaf from "../../assets/leaf.png";
+// import Leaf from "../../assets/leaf.png";
 import Button from "../../components/Button/Button";
 import styles from "./HeroSection.module.scss";
 const HeroSection = (props) => {

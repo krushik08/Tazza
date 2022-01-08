@@ -64,7 +64,7 @@ const BlogDetails = () => {
                     </div>
                     <div className="blog-title">
                       <h4>
-                        <a href="">
+                        <a href="/#">
                           Strawberries are low-growing herbaceous plants with a
                           fibrous root system and a crown from which arise basal
                           leaves.
@@ -181,18 +181,18 @@ const BlogDetails = () => {
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-left ">
                             <span>Tags:</span>
                             <span>
-                              <a href="">Organic,</a>
+                              <a href="/#">Organic,</a>
                             </span>
                             <span>
-                              <a href="">Farmers,</a>
+                              <a href="/#">Farmers,</a>
                             </span>
                             <span>
-                              <a href="">Food</a>
+                              <a href="/#">Food</a>
                             </span>
                           </div>
 
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-end ">
-                            <ul className="list-unstyled d-flex   social-icons ">
+                            <ul className="list-unstyled d-flex social-icons ">
                               <li className="icon-list">
                                 <a href="#/" className="icon-round">
                                   <Icofont icon="skype" />

@@ -1,29 +1,39 @@
-import React from "react";
-import Icofont from "react-icofont";
-import { Link } from "react-router-dom";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
-import Apple from "../../assets/Apple.jpg";
-import Carrot from "../../assets/Carrot.jpg";
-import Dragon from "../../assets/Dragon.jpg";
-import Masrom from "../../assets/Masrom.jpg";
-import MuskMelon from "../../assets/MuskMelon.jpg";
-import News1 from "../../assets/news1.jpg";
-import News2 from "../../assets/news2.jpg";
-import News3 from "../../assets/news3.jpg";
-import Onion from "../../assets/Onion.jpg";
-import Orange from "../../assets/orange.jpg";
-import Partner from "../../assets/partner.png";
-import TestimonialRight from "../../assets/testimonial-1.png";
-import Tomatoes from "../../assets/Tomatoes.jpg";
-import Button from "../../components/Button/Button";
-import "./HomePage.scss";
-import "./Mq.scss";
+import React from 'react';
+import Icofont from 'react-icofont';
+import { Link } from 'react-router-dom';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css';
+import Apple from '../../assets/Apple.jpg';
+import Carrot from '../../assets/Carrot.jpg';
+import Dragon from '../../assets/Dragon.jpg';
+import Masrom from '../../assets/Masrom.jpg';
+import MuskMelon from '../../assets/MuskMelon.jpg';
+import News1 from '../../assets/news1.jpg';
+import News2 from '../../assets/news2.jpg';
+import News3 from '../../assets/news3.jpg';
+import Onion from '../../assets/Onion.jpg';
+import Orange from '../../assets/orange.jpg';
+import Partner from '../../assets/partner.png';
+import TestimonialRight from '../../assets/testimonial-1.png';
+import Tomatoes from '../../assets/Tomatoes.jpg';
+import Button from '../../components/Button/Button';
+import './HomePage.scss';
+import './Mq.scss';
 
 const HomePage = () => {
   var heroSection = {
     dots: true,
+    autoplay: true,
+    infinite: true,
+    arrows: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  var test = {
+    dots: false,
     autoplay: true,
     infinite: true,
     arrows: false,
@@ -40,6 +50,40 @@ const HomePage = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1420,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+        },
+      },
+    ],
   };
 
   var partner = {
@@ -60,7 +104,7 @@ const HomePage = () => {
             <Slider {...heroSection}>
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="heroArea">
                   <h1>100% Organic</h1>
@@ -81,7 +125,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="heroArea">
                   <h1>90% Organic</h1>
@@ -100,7 +144,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="heroArea">
                   <h1>80% Organic</h1>
@@ -127,7 +171,7 @@ const HomePage = () => {
             <Slider {...features}>
               <div
                 className="col-xs-12 col-md-12 col-lg-12 col-xl-12 mb-4"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="features-card text-center">
                   <div className="features-icon-round">
@@ -143,7 +187,7 @@ const HomePage = () => {
 
               <div
                 className="col-xs-12 col-md-12 col-lg-12 col-xl-12 mb-4"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="features-card text-center">
                   <div className="features-icon-round">
@@ -159,7 +203,7 @@ const HomePage = () => {
 
               <div
                 className="col-xs-12 col-md-12 col-lg-12 col-xl-12 mb-4"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="features-card text-center">
                   <div className="features-icon-round">
@@ -175,7 +219,7 @@ const HomePage = () => {
 
               <div
                 className="col-xs-12 col-md-12 col-lg-12 col-xl-12 mb-4"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="features-card text-center">
                   <div className="features-icon-round">
@@ -191,7 +235,7 @@ const HomePage = () => {
 
               <div
                 className="col-xs-12 col-md-12 col-lg-12 col-xl-12 mb-4"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="features-card text-center">
                   <div className="features-icon-round">
@@ -599,7 +643,7 @@ const HomePage = () => {
             <Slider {...partner}>
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="partner-img text-center">
                   <img className="w-50 mx-auto" src={Partner} alt="" />
@@ -608,7 +652,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="partner-img text-center">
                   <img className="w-50 mx-auto" src={Partner} alt="" />
@@ -617,7 +661,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="partner-img text-center">
                   <img className="w-50 mx-auto" src={Partner} alt="" />
@@ -626,7 +670,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="partner-img text-center">
                   <img className="w-50 mx-auto" src={Partner} alt="" />
@@ -635,7 +679,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="partner-img text-center">
                   <img className="w-50 mx-auto" src={Partner} alt="" />
@@ -644,7 +688,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="partner-img text-center">
                   <img className="w-50 mx-auto" src={Partner} alt="" />
@@ -653,7 +697,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="partner-img text-center">
                   <img className="w-50 mx-auto" src={Partner} alt="" />
@@ -662,7 +706,7 @@ const HomePage = () => {
 
               <div
                 className="col-md-12"
-                style={{ width: "100%", display: "inline-block" }}
+                style={{ width: '100%', display: 'inline-block' }}
               >
                 <div className="partner-img text-center">
                   <img className="w-50 mx-auto" src={Partner} alt="" />
@@ -686,32 +730,81 @@ const HomePage = () => {
           </div>
 
           <div className="row align-items-center d-flex mt-5">
-            <div className="col-md-4">
-              <div className="testimonial-img text-center">
-                <div
-                  className="testimonial-right-img"
-                  style={{ width: "100%", display: "inline-block" }}
-                >
-                  <img className="w-100" src={TestimonialRight} alt="" />
+            <div
+              className="col-md-4"
+              // style={{ width: "100%", display: "inline-block" }}
+            >
+              <Slider {...test}>
+                <div className="testimonial-img text-center">
+                  <div className="testimonial-right-img">
+                    <img className="w-100" src={TestimonialRight} alt="" />
+                  </div>
                 </div>
-              </div>
+
+                <div className="testimonial-img text-center">
+                  <div className="testimonial-right-img">
+                    <img className="w-100" src={TestimonialRight} alt="" />
+                  </div>
+                </div>
+
+                <div className="testimonial-img text-center">
+                  <div className="testimonial-right-img">
+                    <img className="w-100" src={TestimonialRight} alt="" />
+                  </div>
+                </div>
+              </Slider>
             </div>
 
             <div className="col-md-8">
-              <div className="testimonial-right">
-                <Icofont icon="double-right" />
-                <div className="testimonial-content">
-                  <p>
-                    “ There are many variati ons passages of but the majority
-                    have suffered alteration in some form, injected humour
-                    randomised words which don't look even slightly believable.
-                    If you are going to use a passage of text all the loss ".
-                  </p>
-                  <h3>Salvador Stanley</h3>
-                  <h4>Happy Customer</h4>
+              <Slider {...test}>
+                <div className="testimonial-right">
+                  <Icofont icon="double-right" />
+                  <div className="testimonial-content">
+                    <p>
+                      “ There are many variati ons passages of but the majority
+                      have suffered alteration in some form, injected humour
+                      randomised words which don't look even slightly
+                      believable. If you are going to use a passage of text all
+                      the loss ".
+                    </p>
+                    <h3>Salvador Stanley</h3>
+                    <h4>Happy Customer</h4>
+                  </div>
+                  <Icofont icon="double-left" />
                 </div>
-                <Icofont icon="double-left" />
-              </div>
+
+                <div className="testimonial-right">
+                  <Icofont icon="double-right" />
+                  <div className="testimonial-content">
+                    <p>
+                      “ There are many variati ons passages of but the majority
+                      have suffered alteration in some form, injected humour
+                      randomised words which don't look even slightly
+                      believable. If you are going to use a passage of text all
+                      the loss ".
+                    </p>
+                    <h3>Salvador Stanley</h3>
+                    <h4>Happy Customer</h4>
+                  </div>
+                  <Icofont icon="double-left" />
+                </div>
+
+                <div className="testimonial-right">
+                  <Icofont icon="double-right" />
+                  <div className="testimonial-content">
+                    <p>
+                      “ There are many variati ons passages of but the majority
+                      have suffered alteration in some form, injected humour
+                      randomised words which don't look even slightly
+                      believable. If you are going to use a passage of text all
+                      the loss ".
+                    </p>
+                    <h3>Salvador Stanley</h3>
+                    <h4>Happy Customer</h4>
+                  </div>
+                  <Icofont icon="double-left" />
+                </div>
+              </Slider>
             </div>
           </div>
         </div>
@@ -726,7 +819,7 @@ const HomePage = () => {
               </h2>
               <Button iconName="double-right" position="right">
                 contact now
-              </Button>{" "}
+              </Button>{' '}
             </div>
           </div>
         </div>

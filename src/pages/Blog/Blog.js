@@ -61,13 +61,13 @@ const Blog = () => {
                     </div>
                     <div className="blog-title">
                       <h4>
-                        <a href="">
+                        <a href="/#">
                           Strawberries are low-growing herbaceous plants with a
                           fibrous root system and a crown from which arise basal
                           leaves.
                         </a>
                       </h4>
-                      <a className="pt-2" href="">
+                      <a className="pt-2" href="/#">
                         Read more
                       </a>
                     </div>
@@ -102,13 +102,13 @@ const Blog = () => {
                     </div>
                     <div className="blog-title">
                       <h4>
-                        <a href="">
+                        <a href="/#">
                           Strawberries are low-growing herbaceous plants with a
                           fibrous root system and a crown from which arise basal
                           leaves.
                         </a>
                       </h4>
-                      <a className="pt-2" href="">
+                      <a className="pt-2" href="/#">
                         Read more
                       </a>
                     </div>
@@ -143,13 +143,13 @@ const Blog = () => {
                     </div>
                     <div className="blog-title">
                       <h4>
-                        <a href="">
+                        <a href="/#">
                           Strawberries are low-growing herbaceous plants with a
                           fibrous root system and a crown from which arise basal
                           leaves.
                         </a>
                       </h4>
-                      <a className="pt-2" href="">
+                      <a className="pt-2" href="/#">
                         Read more
                       </a>
                     </div>
@@ -162,22 +162,22 @@ const Blog = () => {
                   <div className="page-number">
                     <ul>
                       <li className="list-group-num">
-                        <a className="number" href="">
+                        <a className="number" href="/#">
                           1
                         </a>
                       </li>
                       <li className="list-group-num">
-                        <a className="number" href="">
+                        <a className="number" href="/#">
                           2
                         </a>
                       </li>
                       <li className="list-group-num">
-                        <a className="number" href="">
+                        <a className="number" href="/#">
                           3
                         </a>
                       </li>
                       <li className="list-group-num">
-                        <a className="number" href="">
+                        <a className="number" href="/#">
                           <Icofont icon="arrow-right" />
                         </a>
                       </li>
